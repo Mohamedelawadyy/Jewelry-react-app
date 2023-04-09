@@ -1,0 +1,20 @@
+.parallax {
+  background-image: url("../../images/parallax/banner01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.shape {
+  position: relative;
+  text-align: center;
+}
+
+.shape a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}

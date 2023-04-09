@@ -1,0 +1,52 @@
+.blog-sec {
+  background-color: #f7f7f7;
+  font-family: "Times New Roman", Times, serif;
+}
+.blog-sec .blog-sec__header {
+  background: #21201f;
+  padding: 12px;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.product-list {
+  list-style-type: none;
+  text-align: left;
+  width: 100%;
+}
+.list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+  border-bottom: 1px solid #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list-item img {
+  width: 50%;
+}
+.list-item h6 {
+  color: #000;
+  cursor: pointer;
+}
+.list-item p {
+  color: #d3a012;
+}
+.list-item h6:hover {
+  color: #d3a012;
+}
+.productList li .card {
+  display: flex;
+  flex-direction: row;
+}

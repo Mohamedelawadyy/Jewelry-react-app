@@ -1,0 +1,40 @@
+.main-heading {
+  text-align: center;
+  padding: 12px;
+  font-weight: 500;
+}
+.heading-icon {
+  width: 100%;
+  position: relative;
+}
+.heading-icon i {
+  color: #d3a012;
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.heading-icon i::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 2px;
+  background-color: #d3a012;
+}
+/* .heading-icon i::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+  width: 10%;
+  height: 10px;
+  background-color: #d3a012;
+}  */
+/* .heading-icon i {
+  border-left: solid #d3a012;
+  border-width: 3rem;
+  
+} */

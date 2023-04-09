@@ -1,0 +1,29 @@
+.container-featured {
+  width: 85%;
+  margin: auto;
+  margin-top: 45px;
+}
+.container-featured__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.container-featured__cards .card {
+  margin-bottom: 15px;
+}
+
+.container-featured__cards .card-details__subtitle {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container-featured__cards .card-details__subtitle:hover {
+  color: #d3a012;
+}
+
+.container-featured__cards .card .card-body__icons {
+  font-size: 30px;
+  color: #d39f12be;
+  cursor: pointer;
+}
+.container-featured__cards .card .card-body__icons:hover {
+  color: #d3a012;
+}

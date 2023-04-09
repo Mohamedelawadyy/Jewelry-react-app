@@ -1,0 +1,53 @@
+.recent-posts {
+  background-color: #f7f7f798;
+}
+
+.blog-item {
+  position: relative;
+  width: 100%;
+  padding-left: 1.14286rem;
+  padding-right: 1.14286rem;
+  font-size: 1rem;
+}
+.blog-item img {
+  width: 100%;
+}
+.blog-item a {
+  display: block;
+  padding: 0.35714rem 1.5rem;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: color 0.15s ease;
+  color: #000;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.blog-item a:hover {
+  color: #d3a012;
+}
+
+.blog-body .blog-header .blog-title a {
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #d3a012;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.blog-body .blog-header .blog-title a:hover {
+  color: #858585;
+}
+.blog-post {
+  color: #858585;
+  text-align: left;
+}

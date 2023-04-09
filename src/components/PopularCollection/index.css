@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400;1,600&family=Poppins:wght@200;600&family=Satisfy&display=swap");
+
+.container-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popular-collection .card {
+  width: 18rem;
+  position: relative;
+  color: #eee;
+  margin-top: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.figcaption {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  background-color: transparent;
+  -ms-transform: rotate(15deg);
+  transform: rotateZ(15deg);
+  transition: all 0.5s ease;
+}
+
+.figcaption-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+.figcaption-title {
+  font-size: 36px;
+  margin: 0;
+}
+.figcaption-text {
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+.card:hover .figcaption {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  -ms-transform: rotate(0);
+  transform: rotateZ(0);
+}

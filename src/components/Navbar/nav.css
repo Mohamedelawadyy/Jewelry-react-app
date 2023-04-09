@@ -1,0 +1,31 @@
+nav.navbar {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.navbar-brand {
+  font-size: 46px;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  color: rgb(189, 187, 187);
+}
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: whitesmoke !important;
+  transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: gray;
+  opacity: 0.5;
+}
+.navbar .container .collapse .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
